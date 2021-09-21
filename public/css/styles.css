@@ -341,3 +341,13 @@ h3 {
 	resize:none;
 	display:block;
 }*/
+
+.fa-truck:hover{ 
+  transform: rotate(-360deg);}    
+
+.fa-truck{transition: 1s;
+  }
+
+.cajita1, .cajita2, .cajita3, .cajita4, .cajita5, .cajita6, .cajita7, .cajita8 {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
