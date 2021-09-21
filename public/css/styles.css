@@ -75,6 +75,12 @@ main img {
   margin: 10px 0px 20px 0px;
   padding: 10px;
 }
+.nav-padre {
+  padding: 1%;
+  margin: 1%;
+  /*margin-top: 5%;*/
+}
+
 
 /* inicio de footer */
 .footer-icons {
@@ -162,6 +168,23 @@ main section article {
   display: flex;
   width: 50%;
 }
+.buscador {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  align-items: center;
+  padding-top: 5%;
+  padding-right: 2%;
+}
+.buscador1 {
+border-radius: 2%;
+}
+ul {
+  list-style-type: none;
+  color: #000;
+  display: inline;
+}
+
 
 
 @media (min-width: 361px) {
@@ -183,6 +206,8 @@ main section article {
   .main-header-top-bar {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
   }
   article {
     width: 48%
@@ -196,7 +221,40 @@ h3 {
   width: 100%;
   text-align: center;
   margin: 5%;
-} }
+} 
+.nav-padre {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+}
+.nav1 {
+  flex-direction: row;
+  display: inline;
+}
+.nav1 li {
+  margin: 2px; 
+}
+.nav2 li {
+  margin: 2px;
+}
+.nav2 {
+  flex-direction: row;
+  display: inline;
+}
+ul li{
+  list-style-type: none;
+  color: #000;
+  display: inline;
+}
+.compra {
+  padding-top: 10%;
+  padding-right: 2%;
+}
+.imagen-logo {
+  width: 30%;
+}
+
+}
 @media  (min-width: 1280px) {
   .main-header-top-bar {
     display: flex;
@@ -216,4 +274,70 @@ h3 {
   text-align: center;
   margin: 5%;
 }
+.main-header-top-bar, .nav-padre {
+  max-width: 1200;
+  margin: auto;
 }
+.nav2 li {
+  margin: 5px;
+}
+.nav2 li {
+  margin: 5px;
+}
+
+}
+
+/* Formulario */
+/**{box-sizing:border-box;}
+
+.forulario-ingreso{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+.forulario-ingreso label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.forulario-ingreso input,
+.forulario-ingreso input{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+.forulario-ingreso input{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+.forulario-ingreso input:hover{
+	cursor:pointer;
+}
+
+/*textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	
+	resize:none;
+	display:block;
+}*/
